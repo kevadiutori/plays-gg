@@ -1,3 +1,5 @@
+
+
 * {
    margin: 0px;
  }
@@ -67,7 +69,7 @@
  }
  
  .embedded-clips {
-   /* position: relative; */
+   /* postion: relative; */
    display: grid;
    justify-content: center;
  }
@@ -128,17 +130,18 @@
  }
  
  .bottom-nav {
-   display: flex;
-   position: absolute;
-   bottom: 0;
    list-style-type: none;
-   justify-content: center;
-   align-content: center;
-   align-items: center;
    padding-right: 150px;
    margin: 10px;
    padding-left: 50px;
-   font-size: 15px;
+   font-size: 12px;
+   border-top: 2px solid grey;
+   padding-top: 20px;
+ }
+ 
+ .bottom {
+   position: relative;
+   bottom: 0;
  }
  
  .bottom-border {
@@ -158,8 +161,8 @@
  #login {
    margin-left: 250px;
  }
-/*  
- #sign-up {
+ 
+ /* #sign-up {
  }
  
  #password {
@@ -171,7 +174,19 @@
  .nav-plays span {
    font-weight: bold;
  }
+ .aboutme {
+   display: grid;
+   justify-content: center;
+   padding-bottom: 50px;
+ }
  
-
-
-
+ .gray-font {
+   color: gray;
+   font-size: 15px;
+ }
+ .aboutme img {
+   width: 45px;
+   height: 45px;
+   border-radius: 50%;
+ }
+ 
