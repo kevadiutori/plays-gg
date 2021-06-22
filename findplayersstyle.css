@@ -1,0 +1,376 @@
+
+  
+  * {
+    margin: 0px;
+  }
+  
+  html {
+    background-color: #162532;
+    color: white;
+    font-family: "Mate SC", serif;
+    font-size: 20px;
+  }
+  
+  .nav-plays span {
+    font-family: "Mate SC", serif;
+    font-size: 32px;
+    position: absolute;
+    left: 0;
+  }
+  
+  .nav-plays {
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-right: 75px;
+    align-items: center;
+    font-size: 32px;
+  }
+  
+  /* .nav-plays input {
+    margin-left: 250px;
+  } */
+  
+  .left-nav-bar {
+    display: grid;
+    width: 250px;
+    position: absolute;
+    top: 0;
+    bottom: 50;
+    left: 0;
+    margin-top: 20%;
+    height: 20%;
+    font-family: "Mate SC", serif;
+    border-right: 2px solid gray;
+  }
+  
+  .centerinfo {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Mate SC", serif;
+  }
+  
+  button {
+   background-color: rgba(255, 0, 0, 0);
+   color: white;
+   border-radius: 250px;
+ }
+  
+
+ #loginoverlay {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb (0,0,0,0.5);
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+  
+  
+  #loginoverlay input {
+    padding-bottom: 5px;
+    margin: 2px;
+  }
+  
+  .login-content{
+    display: grid;
+  }
+  
+  
+  #signupoverlay {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb (0,0,0,0.5);
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+   
+  
+  }
+  
+  
+  #signupoverlay input {
+    padding-bottom: 5px;
+    margin: 2px;
+  }
+  
+  .signup-content{
+    display: grid;
+  }
+  
+  #close {
+    cursor: pointer;
+  }
+  
+  #close1 {
+    cursor: pointer;
+  }
+
+  .centerinfo {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Mate SC", serif;
+    color: white;
+    margin-top: 25px;
+    
+  }
+  .bottomborder {
+    margin-top: 5px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+  .search-bar {
+    position: relative;
+    margin-right: 50px;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  #login {
+    margin-left: 250px;
+  }
+  
+  .nav-plays span {
+    font-weight: bold;
+  }
+
+  .find-players {
+      display: grid;
+      justify-content: center;
+
+    
+  }
+  .find-players h2 {
+    font-size: 24px;
+  }
+
+  .find-players img {
+     
+        width: 10px;
+        height: 10px;
+        border-radius: 30px;
+        border: 2px solid #aaa;
+        object-fit: cover;
+        margin-left: 5px;
+        margin-right: 10px;
+      }
+
+    .player0 {
+        border-top: 2px solid gray;
+        border-left: 2px solid gray;
+        border-right: 2px solid gray;
+      }
+
+    .player0 h1 {
+        font-size: 20px;
+        color: red;
+        margin-left: 35px;
+    }
+
+    .player1 {
+        border-top: 2px solid gray;
+        border-left: 2px solid gray;
+        border-right: 2px solid gray;
+        margin-top: 45px;
+      }
+
+      .player1 h1 {
+          font-size: 20px;
+          color: yellow;
+          margin-left: 35px;
+      }
+
+     
+
+     
+
+
+  .player2 {
+    margin-top: 45px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+  }
+    .player2 h1 {
+        font-size: 20px;
+        color: green;
+        margin-left: 35px;
+    }
+    
+
+
+.player3 {
+    margin-top: 45px;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+
+  .search-bar {
+    position: relative;
+    margin-right: 50px;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  #login {
+    margin-left: 250px;
+  }
+
+
+  #friend-list {
+    display: block;
+    margin-top: 20%;
+    padding: 0;
+    width: 200px;
+    height: 20%;
+    background: #eee;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  
+  .friend {
+    width: 200px;
+    height: 40px;
+    background: #162532;
+    border: 3px solid gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /*   float: right; */
+  }
+  
+  .friend img {
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    border: 2px solid #aaa;
+    object-fit: cover;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .friend .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 18px;
+  }
+  
+  .friend.selected {
+    background: Gray;
+    color: white;
+  }
+  
+  .friend.selected img {
+    border-color: white;
+  }
+  
+  .friend:not(.selected):hover {
+    background: gray;
+  }
+  
+
+  .login-content{
+    display: grid;
+    position: fixed;
+    background-color: #162532;
+    padding: 35px;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .signup-content{
+    display: grid;
+    position: fixed;
+    background-color: #162532;
+    padding: 35px;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  
+  #close {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+  }
+  
+  #close1 {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+  }
+  
+
+  @media only screen and (max-width: 375px) {
+    body {
+      background-color: #162532;
+      /* background-color: black; */
+      display: grid;
+    }
+    @media only screen and (max-width: 375px){
+      html {
+        display: grid;
+      }
+    }
+  
+    @media only screen and (max-width: 375px){
+      .left-nav-bar{
+        display:none;
+      }
+    }
+  
+    @media only screen and (max-width: 375px){
+      #friend-list{
+        display:none;
+      }
+    }
+  
+    @media only screen and (max-width: 375px){
+      .aboutme {
+        display: grid;
+        justify-content: left;
+        margin-left: 10%;
+  
+      }
+    }
+
+    @media only screen and (max-width: 375px){
+        .search-bar {
+            display: none;
+        }
+    }
+}

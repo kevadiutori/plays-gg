@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+  }
+
+
+  html {
+    background-color: #162532;
+    color: white;
+    font-family: "Mate SC", serif;
+    font-size: 20px;
+  }
+
+.nav-plays span {
+    font-family: "Mate SC", serif;
+    font-size: 32px;
+    position: absolute;
+    left: 0;
+   font-weight: bold;
+  }
+  .nav-plays span {
+    font-weight: bold;
+  }
+  
+  .nav-plays {
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding-right: 75px;
+    align-items: center;
+    font-size: 32px;
+  }
+
+
+  button {
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    border-radius: 250px;
+  }
+
+
+
+  #loginoverlay {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb (0,0,0,0.5);
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+    
+  }
+  
+  
+  #loginoverlay input {
+    padding-bottom: 5px;
+    margin: 2px;
+  }
+  
+ 
+  .login-content{
+    display: grid;
+    position: fixed;
+    background-color: #162532;
+    padding: 35px;
+    color: white;
+    border-radius: 15px;
+  }
+
+  .signup-content{
+    display: grid;
+    position: fixed;
+    background-color: #162532;
+    padding: 35px;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  
+  #close {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+  }
+
+  #close1 {
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+  }
+
+  
+  #signupoverlay {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb (0,0,0,0.5);
+    z-index: 1;
+    background-color: rgba(0,0,0,0.4);
+   
+  
+  }
+  
+  
+  #signupoverlay input {
+    padding-bottom: 5px;
+    margin: 2px;
+  }
+  
+ 
+
+  .centerinfo {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Mate SC", serif;
+    color: white;
+    margin-top: 25px;
+    
+  }
+
+  .bottomborder {
+    margin-top: 5px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+   img {
+       cursor: pointer;
+   }
+
+   .gameimages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    justify-content: center;
+    align-items:center;
+    margin-left: 275px;
+    
+ 
+
+   }
+
+
+   .friendslist {
+    width: 300px;
+    position: relative;
+    left: 75%;
+    bottom: 400px;
+    
+  }
+  
+  .embedded-clips {
+    /* postion: relative; */
+    display: grid;
+    justify-content: center;
+    height:560px;
+    width:968px;
+    margin-left: 25%;
+  }
+  
+  #friend-list {
+    display: block;
+    margin-top: 20%;
+    padding: 0;
+    width: 200px;
+    height: 20%;
+    background: #eee;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+
+  .name {
+      color: white;
+      font-family: "Mate SC", serif;
+  }
+  
+  .friend {
+    width: 200px;
+    height: 40px;
+    background: #162532;
+    border: 3px solid gray;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /*   float: right; */
+  }
+  
+  .friend img {
+    width: 10px;
+    height: 10px;
+    border-radius: 30px;
+    border: 2px solid #aaa;
+    object-fit: cover;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .friend .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 18px;
+  }
+  
+  .friend.selected {
+    background: Gray;
+    color: white;
+  }
+  
+  .friend.selected img {
+    border-color: white;
+  }
+  
+  .friend:not(.selected):hover {
+    background: gray;
+  }
+  
+
+  .search-bar {
+    position: relative;
+    margin-right: 50px;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  #login {
+    margin-left: 250px;
+  }
+  
+
+  @media only screen and (max-width: 375px) {
+    body {
+      background-color: #162532;
+      /* background-color: black; */
+      display: grid;
+    }
+    @media only screen and (max-width: 375px){
+      html {
+        display: grid;
+      }
+    }
+  
+    @media only screen and (max-width: 375px){
+      .left-nav-bar{
+        display:none;
+      }
+    }
+  
+    @media only screen and (max-width: 375px){
+      #friend-list{
+        display:none;
+      }
+    }
+  
+    @media only screen and (max-width: 375px){
+      .aboutme {
+        display: grid;
+        justify-content: left;
+        margin-left: 10%;
+  
+      }
+    }
+    @media only screen and (max-width: 375px){
+        .gameimages {
+          display: grid;
+          justify-content: left;
+    
+        }
+      }
+
+}
+
+
+.zoom {
+    transition: transform .2s;
+  }
+ 
+ 
+ .zoom:hover {
+    transform: scale(1.05);
+ }
